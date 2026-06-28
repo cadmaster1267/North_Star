@@ -28,3 +28,30 @@
 .welcome_dev {
     padding: 30px 30px 30px 0;
 }
+
+
+
+
+
+
+@media(max-width: 1000px){
+    .welcome {
+        font-size: 80px;
+    }
+    .welcome_section {
+        padding: 40px 0;
+    }
+    .welcome_minor {
+        font-size: 30px;
+    }
+    .decal {
+        width: 300px;
+    }
+}
+
+@media(min-width: 1001px){
+    .hideOnDesktop{
+        display: none;
+    }
+    
+}
