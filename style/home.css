@@ -46,7 +46,40 @@
     text-align: center;
 }
 
+.links_section {
+        overflow: hidden;
+}
 
+.social_media_icons {
+    height: auto;
+    width: 150px;
+}
+
+.sm_icon_spacing {
+    margin: 20px 120px 30px;
+}
+
+.social_media_links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 100px 0 0px;
+    width: 100%
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 40px;
+    width: 100%
+}
 
 
 
