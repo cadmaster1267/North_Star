@@ -56,7 +56,7 @@
 }
 
 .sm_icon_spacing {
-    margin: 20px 120px 30px;
+    margin: 100px 120px 30px;
 }
 
 .social_media_links {
@@ -128,7 +128,89 @@
     margin-right: 9px;
 }
 
+.img_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
 
+
+.wardpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 60px;
+}
+
+.temple_pic {
+    height: auto;
+    width: min(80vw, 800px);
+    border-radius: 30px;
+    border-width: 6px;
+    border-color: rgb(14, 14, 14);
+    border-style: solid;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, .6);
+}
+
+.overlay_ward_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: min(6vw, 55.4px);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
+    font-family: creato_bold;
+    white-space: nowrap;
+}
+
+.img02_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+
+.wardbullet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 60px;
+}
+
+.wardbullet_pic {
+    height: auto;
+    width: min(80vw, 800px);
+    border-radius: 30px;
+    border-width: 6px;
+    border-color: rgb(14, 14, 14);
+    border-style: solid;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, .6);
+}
+
+.overlay_ward_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: min(6vw, 55.4px);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
+    font-family: creato_bold;
+    white-space: nowrap;
+}
 
 
 
