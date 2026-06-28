@@ -1,0 +1,52 @@
+<html lang="en-US">
+
+<head>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+
+
+    <title>
+        North Star YSA
+    </title>
+    <!--       Title on the Browser Tab      -->
+    <link rel="icon" type="image/png" href="photos/North Star Logo 02.png"> <!--     favicon image     -->
+    
+</head>
+
+<body class="body">
+ <nav>
+    <ul>
+        <li><a href="index.html"><img src="photos/North Star Logo 02.png" alt="Home" class="nav_icon"></a></li>
+        <li class="hideOnMobile"><a href="calendar.html">Calendar</a></li>
+        <li class="hideOnMobile"><a href="sunday_school.html">Sunday School</a></li>
+        <li class="hideOnMobile"><a href="welcome.html">Welcome</a></li>
+        <li class="hideOnMobile"><a href="nice_note.html">Nice Notes</a></li>
+        <li class="hideOnMobile"><a href="feedback.html">Feedback</a></li>
+        <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+        <li class="hideOnDesktop" onclick=showSidebar()><a href="#"><img class="ham_icon" src="photos/Hamburger Icon Final.png" alt="MENU"></a></li>
+
+    </ul>
+    <ul class="sidebar">
+        <li><a class="sidebar_logo" href="index.html"><img src="photos/North Star Logo 02.png" alt="Home" class="nav_icon02"></a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="sunday_school.html">Sunday School</a></li>
+        <li><a href="welcome.html">Welcome</a></li>
+        <li><a href="nice_note.html">Nice Notes</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li onclick=hideSidebar()><a href="#">Exit Menu</a></li>
+
+    </ul>
+ </nav>
+ <script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+ </script>
+</body>

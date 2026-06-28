@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'creato_light';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: 'creato_thin';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Thin.otf);
+}
+
+@font-face {
+    font-family: 'creato_standard';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: 'creato_bold';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Bold.otf);
+}
+
+
+h1 {
+    text-align: center; 
+    font-family: creato_light, Helvetica, sans-serif; 
+    font-size: clamp(3rem, 10vw, 6rem); 
+    
+    padding: 30px 0 0 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nice {
+    text-align: center; 
+    font-family: creato_thin; 
+    margin: 0;
+    font-size: 3rem
+}
+
+.labels {
+    text-align: center; 
+    font-family: creato_standard;
+}
+
+
+.name {
+    text-align: center;
+}
+
+.name_area {
+    font-family: creato_standard; 
+    font-size: 27px; 
+    max-width: 400px; 
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(88, 88, 88);
+    border-style: solid;
+}
+
+.name_area:focus {
+    outline-color: rgb(144, 221, 0);
+}
+
+.note {
+    text-align: center; 
+    padding: 10px 0 0;
+    font-family: creato_standard;
+
+}
+
+.note_area {
+    width: 90%; 
+    font-size: 20px; 
+    font-family: creato_standard;
+    padding: 10px;
+    resize: none;
+    margin: 0px auto 40px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(88, 88, 88);
+
+}
+
+.note_area:focus {
+    outline-color:  rgb(144, 221, 0);
+}
+
+.main {
+     background-color: whitesmoke; 
+     width: 80%; 
+     max-width: 800px; 
+     margin: 300px auto; 
+     border-radius: 40px;
+     box-shadow: 0 20px 30px 10px rgba(0, 0, 0, .3);
+     text-align: center;
+     padding: 60px 0;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: rgb(212, 231, 240);
+    font-family: creato_standard;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 90px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(232, 242, 247);
+    border-width: 20px;
+    box-shadow: inset 0 0 7px 6px white;
+    border-radius: 25px;
+}
+
+nav a:active {
+    background-color: rgb(206, 232, 245);
+    border-width: 20px;
+    box-shadow: inset 0 0 3px 10px rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+nav li:first-child  {
+    margin-right: auto;
+}
+
+.nav_icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(6px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+    height: 60px;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.nav_icon02 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.sidebar_logo {
+    justify-content: center;
+    padding: 0;
+}
+
+.sidebar li:first-child {
+    height: 90px;
+    padding: 30px 0 0 0;
+}
+
+.ham_icon {
+    width: 35px;
+    height: 30px;
+}
+
+@media(max-width: 950px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+@media(min-width: 951px){
+    .hideOnDesktop{
+        display: none;
+    }
+}
