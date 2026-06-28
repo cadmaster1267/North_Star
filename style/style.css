@@ -203,13 +203,13 @@ nav li:first-child  {
     height: 30px;
 }
 
-@media(max-width: 950px){
+@media(max-width: 1000px){
     .hideOnMobile{
         display: none;
     }
 }
 
-@media(min-width: 951px){
+@media(min-width: 1001px){
     .hideOnDesktop{
         display: none;
     }
