@@ -53,18 +53,21 @@
 
 @media(max-width: 1000px){
     .welcome {
-        font-size: 60px;
+        font-size: 75px;
         text-align: center;
     }
     .welcome_section {
         padding: 40px 0;
     }
     .welcome_minor {
-        font-size: 40px;
+        font-size: 50px;
     }
     .decal {
         width: 300px;
         display: none;
+    }
+    .welcome_dev {
+        padding-right: 0;
     }
 }
 
